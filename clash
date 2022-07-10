@@ -1,3 +1,4 @@
+
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -5,327 +6,67 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 馃嚭馃嚫US_986, server: 38.86.135.27, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 馃嚦馃嚤NL_791, server: 213.183.59.229, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
-  - {name: Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_149, server: 14.29.124.168, port: 24000, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 馃嚦馃嚤NL_811, server: 213.183.59.229, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: Relay_馃嚭馃嚫US-馃嚭馃嚫US_1739, server: viibah6u.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: tls, headers: {Host: viibah6u.com}}, udp: true}
-  - {name: 馃嚬馃嚰TW_961, server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 馃嚭馃嚫US_1615, server: 167.88.63.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 馃嚭馃嚫US_1537, server: 167.88.61.175, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 馃弫ZZ_1841, server: 134.195.196.150, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Pool_馃嚭馃嚫US_1741, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: tls, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: 馃嚭馃嚫US_1768, server: 51.81.223.18, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 馃弫ZZ_1868, server: 134.195.196.107, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 馃嚭馃嚫US_978, server: 162.251.61.221, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 馃弫ZZ_1858, server: 134.195.196.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 馃嚭馃嚫US_1448, server: 38.68.135.123, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 馃弫ZZ_1884, server: 134.195.196.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Relay_馃嚭馃嚫US-馃嚭馃嚫US_1762, server: oz.moonfree.top, port: 443, type: vmess, uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: tls, headers: {Host: oz.moonfree.top}}, udp: true}
-  - {name: 馃弫ZZ_1821, server: 134.195.196.150, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 馃嚭馃嚫US_1316, server: 167.88.63.79, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 馃弫ZZ_1876, server: 134.195.196.19, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 馃嚭馃嚫US_1577, server: 38.143.66.55, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 馃嚭馃嚫US_1755, server: 51.81.223.15, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 馃弫ZZ_1865, server: 134.195.196.128, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 馃嚪馃嚭RU_889, server: 217.30.10.64, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: 馃嚭馃嚫US_1444, server: 38.86.135.169, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 馃嚭馃嚫US_1719, server: 38.114.114.67, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 馃嚦馃嚤NL_774, server: 213.183.59.190, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 馃嚦馃嚤NL_800, server: 213.183.59.206, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: 馃嚦馃嚤NL_810, server: 213.183.59.211, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: 馃嚦馃嚤NL_788, server: 213.183.59.206, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: 馃嚦馃嚤NL_809, server: 213.183.59.214, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: 馃嚦馃嚤NL_796, server: 213.183.59.214, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: 馃嚦馃嚤NL_781, server: 213.183.59.211, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 馃嚦馃嚤NL_772, server: 213.183.59.206, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: 馃嚦馃嚤NL_804, server: 213.183.59.206, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: 馃嚦馃嚤NL_803, server: 213.183.59.211, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: 馃嚦馃嚤NL_805, server: 213.183.59.190, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: 馃嚦馃嚤NL_797, server: 213.183.59.206, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: 馃嚦馃嚤NL_794, server: 213.183.59.214, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
-  - {name: 馃嚦馃嚤NL_806, server: 213.183.59.211, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 馃嚦馃嚤NL_808, server: 213.183.59.190, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: 馃嚦馃嚤NL_783, server: 213.183.59.206, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
-  - {name: 馃嚦馃嚤NL_775, server: 213.183.59.211, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: 馃嚦馃嚤NL_793, server: 213.183.59.206, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: 馃嚦馃嚤NL_799, server: 213.183.59.190, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: 馃嚦馃嚤NL_771, server: 213.183.59.206, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: 馃嚦馃嚤NL_807, server: 213.183.59.190, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: 馃嚦馃嚤NL_777, server: 213.183.59.206, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: 馃嚦馃嚤NL_779, server: 213.183.59.211, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: 馃嚦馃嚤NL_785, server: 213.183.59.190, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: 馃嚦馃嚤NL_787, server: 213.183.59.214, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: 馃嚦馃嚤NL_792, server: 213.183.59.211, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: 馃嚦馃嚤NL_801, server: 213.183.59.211, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: 馃嚦馃嚤NL_778, server: 213.183.59.214, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: TW_874, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: 馃嚦馃嚤NL_782, server: 213.183.59.206, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: 馃嚦馃嚤NL_802, server: 213.183.59.211, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: 馃嚦馃嚤NL_790, server: 213.183.59.190, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: 馃嚦馃嚤NL_798, server: 213.183.59.214, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 馃嚦馃嚤NL_773, server: 213.183.59.214, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 馃嚭馃嚫US_1019, server: 38.68.134.85, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 馃嚦馃嚤NL_784, server: 213.183.59.214, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: 馃嚦馃嚤NL_789, server: 213.183.59.190, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: 馃嚦馃嚤NL_795, server: 213.183.59.214, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 馃嚦馃嚤NL_780, server: 213.183.59.214, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: 馃嚭馃嚫US_988, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1444, server: www.anloao.cf, port: 9053, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, skip-cert-verify: true, udp: true}
-  - {name: 馃嚭馃嚫US_1166, server: 38.68.135.123, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸, server: 38.75.136.102, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 馃嚭馃嚫US_1139, server: 167.88.61.175, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 馃嚦馃嚤NL_786, server: 213.183.59.206, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: US_1426, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
-  - {name: TW_869, server: tw-oo-01.click, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, skip-cert-verify: true, udp: true}
-  - {name: US_1486, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: CA_348, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 馃嚭馃嚫US_1246, server: 172.99.188.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1108, server: 129.146.249.251, port: 16777, type: vmess, uuid: 937b4b10-0b6c-4dad-d3a4-2d6071f03fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸, server: 38.75.136.21, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1834, server: 38.75.136.21, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1553, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 2, server: 38.114.114.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 3, server: 38.114.114.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇸🇬, server: 194.124.35.23, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA_125, server: 625tw.ok365.cyou, port: 443, type: trojan, password: 6f42acc5-995e-4060-9292-f7cc7641a830, skip-cert-verify: true, udp: true}
+  - {name: 14.29.124.168:24001, server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_1175, server: 626sg05.ok365.cyou, port: 80, type: trojan, password: 6f42acc5-995e-4060-9292-f7cc7641a830, skip-cert-verify: true, udp: true}
+  - {name: aiatw5.www.klrxyru.cn:1205, server: aiatw5.www.klrxyru.cn, port: 1205, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 馃嚭馃嚫US_986
-      - 馃嚦馃嚤NL_791
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_149
-      - 馃嚦馃嚤NL_811
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1739
-      - 馃嚬馃嚰TW_961
-      - 馃嚭馃嚫US_1615
-      - 馃嚭馃嚫US_1537
-      - 馃弫ZZ_1841
-      - Pool_馃嚭馃嚫US_1741
-      - 馃嚭馃嚫US_1768
-      - 馃弫ZZ_1868
-      - 馃嚭馃嚫US_978
-      - 馃弫ZZ_1858
-      - 馃嚭馃嚫US_1448
-      - 馃弫ZZ_1884
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1762
-      - 馃弫ZZ_1821
-      - 馃嚭馃嚫US_1316
-      - 馃弫ZZ_1876
-      - 馃嚭馃嚫US_1577
-      - 馃嚭馃嚫US_1755
-      - 馃弫ZZ_1865
-      - 馃嚪馃嚭RU_889
-      - 馃嚭馃嚫US_1444
-      - 馃嚭馃嚫US_1719
-      - 馃嚦馃嚤NL_774
-      - 馃嚦馃嚤NL_800
-      - 馃嚦馃嚤NL_810
-      - 馃嚦馃嚤NL_788
-      - 馃嚦馃嚤NL_809
-      - 馃嚦馃嚤NL_796
-      - 馃嚦馃嚤NL_781
-      - 馃嚦馃嚤NL_772
-      - 馃嚦馃嚤NL_804
-      - 馃嚦馃嚤NL_803
-      - 馃嚦馃嚤NL_805
-      - 馃嚦馃嚤NL_797
-      - 馃嚦馃嚤NL_794
-      - 馃嚦馃嚤NL_806
-      - 馃嚦馃嚤NL_808
-      - 馃嚦馃嚤NL_783
-      - 馃嚦馃嚤NL_775
-      - 馃嚦馃嚤NL_793
-      - 馃嚦馃嚤NL_799
-      - 馃嚦馃嚤NL_771
-      - 馃嚦馃嚤NL_807
-      - 馃嚦馃嚤NL_777
-      - 馃嚦馃嚤NL_779
-      - 馃嚦馃嚤NL_785
-      - 馃嚦馃嚤NL_787
-      - 馃嚦馃嚤NL_792
-      - 馃嚦馃嚤NL_801
-      - 馃嚦馃嚤NL_778
-      - TW_874
-      - 馃嚦馃嚤NL_782
-      - 馃嚦馃嚤NL_802
-      - 馃嚦馃嚤NL_790
-      - 馃嚦馃嚤NL_798
-      - 馃嚦馃嚤NL_773
-      - 馃嚭馃嚫US_1019
-      - 馃嚦馃嚤NL_784
-      - 馃嚦馃嚤NL_789
-      - 馃嚦馃嚤NL_795
-      - 馃嚦馃嚤NL_780
-      - 馃嚭馃嚫US_988
-      - US_1444
-      - 馃嚭馃嚫US_1166
+      - US_1108
       - 🇺🇸
-      - 馃嚭馃嚫US_1139
-      - 馃嚦馃嚤NL_786
-      - US_1426
-      - TW_869
-      - US_1486
-      - CA_348
-      - 馃嚭馃嚫US_1246
+      - US_1834
+      - US_1553
+      - 🇺🇸 2
+      - 🇺🇸 3
+      - 🇸🇬
+      - CA_125
+      - 14.29.124.168:24001
+      - Relay_🇸🇬SG-🇸🇬SG_1175
+      - aiatw5.www.klrxyru.cn:1205
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 馃嚭馃嚫US_986
-      - 馃嚦馃嚤NL_791
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_149
-      - 馃嚦馃嚤NL_811
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1739
-      - 馃嚬馃嚰TW_961
-      - 馃嚭馃嚫US_1615
-      - 馃嚭馃嚫US_1537
-      - 馃弫ZZ_1841
-      - Pool_馃嚭馃嚫US_1741
-      - 馃嚭馃嚫US_1768
-      - 馃弫ZZ_1868
-      - 馃嚭馃嚫US_978
-      - 馃弫ZZ_1858
-      - 馃嚭馃嚫US_1448
-      - 馃弫ZZ_1884
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1762
-      - 馃弫ZZ_1821
-      - 馃嚭馃嚫US_1316
-      - 馃弫ZZ_1876
-      - 馃嚭馃嚫US_1577
-      - 馃嚭馃嚫US_1755
-      - 馃弫ZZ_1865
-      - 馃嚪馃嚭RU_889
-      - 馃嚭馃嚫US_1444
-      - 馃嚭馃嚫US_1719
-      - 馃嚦馃嚤NL_774
-      - 馃嚦馃嚤NL_800
-      - 馃嚦馃嚤NL_810
-      - 馃嚦馃嚤NL_788
-      - 馃嚦馃嚤NL_809
-      - 馃嚦馃嚤NL_796
-      - 馃嚦馃嚤NL_781
-      - 馃嚦馃嚤NL_772
-      - 馃嚦馃嚤NL_804
-      - 馃嚦馃嚤NL_803
-      - 馃嚦馃嚤NL_805
-      - 馃嚦馃嚤NL_797
-      - 馃嚦馃嚤NL_794
-      - 馃嚦馃嚤NL_806
-      - 馃嚦馃嚤NL_808
-      - 馃嚦馃嚤NL_783
-      - 馃嚦馃嚤NL_775
-      - 馃嚦馃嚤NL_793
-      - 馃嚦馃嚤NL_799
-      - 馃嚦馃嚤NL_771
-      - 馃嚦馃嚤NL_807
-      - 馃嚦馃嚤NL_777
-      - 馃嚦馃嚤NL_779
-      - 馃嚦馃嚤NL_785
-      - 馃嚦馃嚤NL_787
-      - 馃嚦馃嚤NL_792
-      - 馃嚦馃嚤NL_801
-      - 馃嚦馃嚤NL_778
-      - TW_874
-      - 馃嚦馃嚤NL_782
-      - 馃嚦馃嚤NL_802
-      - 馃嚦馃嚤NL_790
-      - 馃嚦馃嚤NL_798
-      - 馃嚦馃嚤NL_773
-      - 馃嚭馃嚫US_1019
-      - 馃嚦馃嚤NL_784
-      - 馃嚦馃嚤NL_789
-      - 馃嚦馃嚤NL_795
-      - 馃嚦馃嚤NL_780
-      - 馃嚭馃嚫US_988
-      - US_1444
-      - 馃嚭馃嚫US_1166
+      - US_1108
       - 🇺🇸
-      - 馃嚭馃嚫US_1139
-      - 馃嚦馃嚤NL_786
-      - US_1426
-      - TW_869
-      - US_1486
-      - CA_348
-      - 馃嚭馃嚫US_1246
+      - US_1834
+      - US_1553
+      - 🇺🇸 2
+      - 🇺🇸 3
+      - 🇸🇬
+      - CA_125
+      - 14.29.124.168:24001
+      - Relay_🇸🇬SG-🇸🇬SG_1175
+      - aiatw5.www.klrxyru.cn:1205
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 馃嚭馃嚫US_986
-      - 馃嚦馃嚤NL_791
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_149
-      - 馃嚦馃嚤NL_811
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1739
-      - 馃嚬馃嚰TW_961
-      - 馃嚭馃嚫US_1615
-      - 馃嚭馃嚫US_1537
-      - 馃弫ZZ_1841
-      - Pool_馃嚭馃嚫US_1741
-      - 馃嚭馃嚫US_1768
-      - 馃弫ZZ_1868
-      - 馃嚭馃嚫US_978
-      - 馃弫ZZ_1858
-      - 馃嚭馃嚫US_1448
-      - 馃弫ZZ_1884
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1762
-      - 馃弫ZZ_1821
-      - 馃嚭馃嚫US_1316
-      - 馃弫ZZ_1876
-      - 馃嚭馃嚫US_1577
-      - 馃嚭馃嚫US_1755
-      - 馃弫ZZ_1865
-      - 馃嚪馃嚭RU_889
-      - 馃嚭馃嚫US_1444
-      - 馃嚭馃嚫US_1719
-      - 馃嚦馃嚤NL_774
-      - 馃嚦馃嚤NL_800
-      - 馃嚦馃嚤NL_810
-      - 馃嚦馃嚤NL_788
-      - 馃嚦馃嚤NL_809
-      - 馃嚦馃嚤NL_796
-      - 馃嚦馃嚤NL_781
-      - 馃嚦馃嚤NL_772
-      - 馃嚦馃嚤NL_804
-      - 馃嚦馃嚤NL_803
-      - 馃嚦馃嚤NL_805
-      - 馃嚦馃嚤NL_797
-      - 馃嚦馃嚤NL_794
-      - 馃嚦馃嚤NL_806
-      - 馃嚦馃嚤NL_808
-      - 馃嚦馃嚤NL_783
-      - 馃嚦馃嚤NL_775
-      - 馃嚦馃嚤NL_793
-      - 馃嚦馃嚤NL_799
-      - 馃嚦馃嚤NL_771
-      - 馃嚦馃嚤NL_807
-      - 馃嚦馃嚤NL_777
-      - 馃嚦馃嚤NL_779
-      - 馃嚦馃嚤NL_785
-      - 馃嚦馃嚤NL_787
-      - 馃嚦馃嚤NL_792
-      - 馃嚦馃嚤NL_801
-      - 馃嚦馃嚤NL_778
-      - TW_874
-      - 馃嚦馃嚤NL_782
-      - 馃嚦馃嚤NL_802
-      - 馃嚦馃嚤NL_790
-      - 馃嚦馃嚤NL_798
-      - 馃嚦馃嚤NL_773
-      - 馃嚭馃嚫US_1019
-      - 馃嚦馃嚤NL_784
-      - 馃嚦馃嚤NL_789
-      - 馃嚦馃嚤NL_795
-      - 馃嚦馃嚤NL_780
-      - 馃嚭馃嚫US_988
-      - US_1444
-      - 馃嚭馃嚫US_1166
+      - US_1108
       - 🇺🇸
-      - 馃嚭馃嚫US_1139
-      - 馃嚦馃嚤NL_786
-      - US_1426
-      - TW_869
-      - US_1486
-      - CA_348
-      - 馃嚭馃嚫US_1246
+      - US_1834
+      - US_1553
+      - 🇺🇸 2
+      - 🇺🇸 3
+      - 🇸🇬
+      - CA_125
+      - 14.29.124.168:24001
+      - Relay_🇸🇬SG-🇸🇬SG_1175
+      - aiatw5.www.klrxyru.cn:1205
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -344,331 +85,72 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 馃嚭馃嚫US_986
-      - 馃嚦馃嚤NL_791
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_149
-      - 馃嚦馃嚤NL_811
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1739
-      - 馃嚬馃嚰TW_961
-      - 馃嚭馃嚫US_1615
-      - 馃嚭馃嚫US_1537
-      - 馃弫ZZ_1841
-      - Pool_馃嚭馃嚫US_1741
-      - 馃嚭馃嚫US_1768
-      - 馃弫ZZ_1868
-      - 馃嚭馃嚫US_978
-      - 馃弫ZZ_1858
-      - 馃嚭馃嚫US_1448
-      - 馃弫ZZ_1884
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1762
-      - 馃弫ZZ_1821
-      - 馃嚭馃嚫US_1316
-      - 馃弫ZZ_1876
-      - 馃嚭馃嚫US_1577
-      - 馃嚭馃嚫US_1755
-      - 馃弫ZZ_1865
-      - 馃嚪馃嚭RU_889
-      - 馃嚭馃嚫US_1444
-      - 馃嚭馃嚫US_1719
-      - 馃嚦馃嚤NL_774
-      - 馃嚦馃嚤NL_800
-      - 馃嚦馃嚤NL_810
-      - 馃嚦馃嚤NL_788
-      - 馃嚦馃嚤NL_809
-      - 馃嚦馃嚤NL_796
-      - 馃嚦馃嚤NL_781
-      - 馃嚦馃嚤NL_772
-      - 馃嚦馃嚤NL_804
-      - 馃嚦馃嚤NL_803
-      - 馃嚦馃嚤NL_805
-      - 馃嚦馃嚤NL_797
-      - 馃嚦馃嚤NL_794
-      - 馃嚦馃嚤NL_806
-      - 馃嚦馃嚤NL_808
-      - 馃嚦馃嚤NL_783
-      - 馃嚦馃嚤NL_775
-      - 馃嚦馃嚤NL_793
-      - 馃嚦馃嚤NL_799
-      - 馃嚦馃嚤NL_771
-      - 馃嚦馃嚤NL_807
-      - 馃嚦馃嚤NL_777
-      - 馃嚦馃嚤NL_779
-      - 馃嚦馃嚤NL_785
-      - 馃嚦馃嚤NL_787
-      - 馃嚦馃嚤NL_792
-      - 馃嚦馃嚤NL_801
-      - 馃嚦馃嚤NL_778
-      - TW_874
-      - 馃嚦馃嚤NL_782
-      - 馃嚦馃嚤NL_802
-      - 馃嚦馃嚤NL_790
-      - 馃嚦馃嚤NL_798
-      - 馃嚦馃嚤NL_773
-      - 馃嚭馃嚫US_1019
-      - 馃嚦馃嚤NL_784
-      - 馃嚦馃嚤NL_789
-      - 馃嚦馃嚤NL_795
-      - 馃嚦馃嚤NL_780
-      - 馃嚭馃嚫US_988
-      - US_1444
-      - 馃嚭馃嚫US_1166
+      - US_1108
       - 🇺🇸
-      - 馃嚭馃嚫US_1139
-      - 馃嚦馃嚤NL_786
-      - US_1426
-      - TW_869
-      - US_1486
-      - CA_348
-      - 馃嚭馃嚫US_1246
+      - US_1834
+      - US_1553
+      - 🇺🇸 2
+      - 🇺🇸 3
+      - 🇸🇬
+      - CA_125
+      - 14.29.124.168:24001
+      - Relay_🇸🇬SG-🇸🇬SG_1175
+      - aiatw5.www.klrxyru.cn:1205
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - aiatw5.www.klrxyru.cn:1205
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 馃嚭馃嚫US_986
-      - 馃嚦馃嚤NL_791
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_149
-      - 馃嚦馃嚤NL_811
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1739
-      - 馃嚬馃嚰TW_961
-      - 馃嚭馃嚫US_1615
-      - 馃嚭馃嚫US_1537
-      - 馃弫ZZ_1841
-      - Pool_馃嚭馃嚫US_1741
-      - 馃嚭馃嚫US_1768
-      - 馃弫ZZ_1868
-      - 馃嚭馃嚫US_978
-      - 馃弫ZZ_1858
-      - 馃嚭馃嚫US_1448
-      - 馃弫ZZ_1884
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1762
-      - 馃弫ZZ_1821
-      - 馃嚭馃嚫US_1316
-      - 馃弫ZZ_1876
-      - 馃嚭馃嚫US_1577
-      - 馃嚭馃嚫US_1755
-      - 馃弫ZZ_1865
-      - 馃嚪馃嚭RU_889
-      - 馃嚭馃嚫US_1444
-      - 馃嚭馃嚫US_1719
-      - 馃嚦馃嚤NL_774
-      - 馃嚦馃嚤NL_800
-      - 馃嚦馃嚤NL_810
-      - 馃嚦馃嚤NL_788
-      - 馃嚦馃嚤NL_809
-      - 馃嚦馃嚤NL_796
-      - 馃嚦馃嚤NL_781
-      - 馃嚦馃嚤NL_772
-      - 馃嚦馃嚤NL_804
-      - 馃嚦馃嚤NL_803
-      - 馃嚦馃嚤NL_805
-      - 馃嚦馃嚤NL_797
-      - 馃嚦馃嚤NL_794
-      - 馃嚦馃嚤NL_806
-      - 馃嚦馃嚤NL_808
-      - 馃嚦馃嚤NL_783
-      - 馃嚦馃嚤NL_775
-      - 馃嚦馃嚤NL_793
-      - 馃嚦馃嚤NL_799
-      - 馃嚦馃嚤NL_771
-      - 馃嚦馃嚤NL_807
-      - 馃嚦馃嚤NL_777
-      - 馃嚦馃嚤NL_779
-      - 馃嚦馃嚤NL_785
-      - 馃嚦馃嚤NL_787
-      - 馃嚦馃嚤NL_792
-      - 馃嚦馃嚤NL_801
-      - 馃嚦馃嚤NL_778
-      - TW_874
-      - 馃嚦馃嚤NL_782
-      - 馃嚦馃嚤NL_802
-      - 馃嚦馃嚤NL_790
-      - 馃嚦馃嚤NL_798
-      - 馃嚦馃嚤NL_773
-      - 馃嚭馃嚫US_1019
-      - 馃嚦馃嚤NL_784
-      - 馃嚦馃嚤NL_789
-      - 馃嚦馃嚤NL_795
-      - 馃嚦馃嚤NL_780
-      - 馃嚭馃嚫US_988
-      - US_1444
-      - 馃嚭馃嚫US_1166
+      - US_1108
       - 🇺🇸
-      - 馃嚭馃嚫US_1139
-      - 馃嚦馃嚤NL_786
-      - US_1426
-      - TW_869
-      - US_1486
-      - CA_348
-      - 馃嚭馃嚫US_1246
+      - US_1834
+      - US_1553
+      - 🇺🇸 2
+      - 🇺🇸 3
+      - 🇸🇬
+      - CA_125
+      - 14.29.124.168:24001
+      - Relay_🇸🇬SG-🇸🇬SG_1175
+      - aiatw5.www.klrxyru.cn:1205
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 馃嚭馃嚫US_986
-      - 馃嚦馃嚤NL_791
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_149
-      - 馃嚦馃嚤NL_811
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1739
-      - 馃嚬馃嚰TW_961
-      - 馃嚭馃嚫US_1615
-      - 馃嚭馃嚫US_1537
-      - 馃弫ZZ_1841
-      - Pool_馃嚭馃嚫US_1741
-      - 馃嚭馃嚫US_1768
-      - 馃弫ZZ_1868
-      - 馃嚭馃嚫US_978
-      - 馃弫ZZ_1858
-      - 馃嚭馃嚫US_1448
-      - 馃弫ZZ_1884
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1762
-      - 馃弫ZZ_1821
-      - 馃嚭馃嚫US_1316
-      - 馃弫ZZ_1876
-      - 馃嚭馃嚫US_1577
-      - 馃嚭馃嚫US_1755
-      - 馃弫ZZ_1865
-      - 馃嚪馃嚭RU_889
-      - 馃嚭馃嚫US_1444
-      - 馃嚭馃嚫US_1719
-      - 馃嚦馃嚤NL_774
-      - 馃嚦馃嚤NL_800
-      - 馃嚦馃嚤NL_810
-      - 馃嚦馃嚤NL_788
-      - 馃嚦馃嚤NL_809
-      - 馃嚦馃嚤NL_796
-      - 馃嚦馃嚤NL_781
-      - 馃嚦馃嚤NL_772
-      - 馃嚦馃嚤NL_804
-      - 馃嚦馃嚤NL_803
-      - 馃嚦馃嚤NL_805
-      - 馃嚦馃嚤NL_797
-      - 馃嚦馃嚤NL_794
-      - 馃嚦馃嚤NL_806
-      - 馃嚦馃嚤NL_808
-      - 馃嚦馃嚤NL_783
-      - 馃嚦馃嚤NL_775
-      - 馃嚦馃嚤NL_793
-      - 馃嚦馃嚤NL_799
-      - 馃嚦馃嚤NL_771
-      - 馃嚦馃嚤NL_807
-      - 馃嚦馃嚤NL_777
-      - 馃嚦馃嚤NL_779
-      - 馃嚦馃嚤NL_785
-      - 馃嚦馃嚤NL_787
-      - 馃嚦馃嚤NL_792
-      - 馃嚦馃嚤NL_801
-      - 馃嚦馃嚤NL_778
-      - TW_874
-      - 馃嚦馃嚤NL_782
-      - 馃嚦馃嚤NL_802
-      - 馃嚦馃嚤NL_790
-      - 馃嚦馃嚤NL_798
-      - 馃嚦馃嚤NL_773
-      - 馃嚭馃嚫US_1019
-      - 馃嚦馃嚤NL_784
-      - 馃嚦馃嚤NL_789
-      - 馃嚦馃嚤NL_795
-      - 馃嚦馃嚤NL_780
-      - 馃嚭馃嚫US_988
-      - US_1444
-      - 馃嚭馃嚫US_1166
+      - US_1108
       - 🇺🇸
-      - 馃嚭馃嚫US_1139
-      - 馃嚦馃嚤NL_786
-      - US_1426
-      - TW_869
-      - US_1486
-      - CA_348
-      - 馃嚭馃嚫US_1246
+      - US_1834
+      - US_1553
+      - 🇺🇸 2
+      - 🇺🇸 3
+      - 🇸🇬
+      - CA_125
+      - 14.29.124.168:24001
+      - Relay_🇸🇬SG-🇸🇬SG_1175
+      - aiatw5.www.klrxyru.cn:1205
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 馃嚭馃嚫US_986
-      - 馃嚦馃嚤NL_791
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_149
-      - 馃嚦馃嚤NL_811
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1739
-      - 馃嚬馃嚰TW_961
-      - 馃嚭馃嚫US_1615
-      - 馃嚭馃嚫US_1537
-      - 馃弫ZZ_1841
-      - Pool_馃嚭馃嚫US_1741
-      - 馃嚭馃嚫US_1768
-      - 馃弫ZZ_1868
-      - 馃嚭馃嚫US_978
-      - 馃弫ZZ_1858
-      - 馃嚭馃嚫US_1448
-      - 馃弫ZZ_1884
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1762
-      - 馃弫ZZ_1821
-      - 馃嚭馃嚫US_1316
-      - 馃弫ZZ_1876
-      - 馃嚭馃嚫US_1577
-      - 馃嚭馃嚫US_1755
-      - 馃弫ZZ_1865
-      - 馃嚪馃嚭RU_889
-      - 馃嚭馃嚫US_1444
-      - 馃嚭馃嚫US_1719
-      - 馃嚦馃嚤NL_774
-      - 馃嚦馃嚤NL_800
-      - 馃嚦馃嚤NL_810
-      - 馃嚦馃嚤NL_788
-      - 馃嚦馃嚤NL_809
-      - 馃嚦馃嚤NL_796
-      - 馃嚦馃嚤NL_781
-      - 馃嚦馃嚤NL_772
-      - 馃嚦馃嚤NL_804
-      - 馃嚦馃嚤NL_803
-      - 馃嚦馃嚤NL_805
-      - 馃嚦馃嚤NL_797
-      - 馃嚦馃嚤NL_794
-      - 馃嚦馃嚤NL_806
-      - 馃嚦馃嚤NL_808
-      - 馃嚦馃嚤NL_783
-      - 馃嚦馃嚤NL_775
-      - 馃嚦馃嚤NL_793
-      - 馃嚦馃嚤NL_799
-      - 馃嚦馃嚤NL_771
-      - 馃嚦馃嚤NL_807
-      - 馃嚦馃嚤NL_777
-      - 馃嚦馃嚤NL_779
-      - 馃嚦馃嚤NL_785
-      - 馃嚦馃嚤NL_787
-      - 馃嚦馃嚤NL_792
-      - 馃嚦馃嚤NL_801
-      - 馃嚦馃嚤NL_778
-      - TW_874
-      - 馃嚦馃嚤NL_782
-      - 馃嚦馃嚤NL_802
-      - 馃嚦馃嚤NL_790
-      - 馃嚦馃嚤NL_798
-      - 馃嚦馃嚤NL_773
-      - 馃嚭馃嚫US_1019
-      - 馃嚦馃嚤NL_784
-      - 馃嚦馃嚤NL_789
-      - 馃嚦馃嚤NL_795
-      - 馃嚦馃嚤NL_780
-      - 馃嚭馃嚫US_988
-      - US_1444
-      - 馃嚭馃嚫US_1166
+      - US_1108
       - 🇺🇸
-      - 馃嚭馃嚫US_1139
-      - 馃嚦馃嚤NL_786
-      - US_1426
-      - TW_869
-      - US_1486
-      - CA_348
-      - 馃嚭馃嚫US_1246
+      - US_1834
+      - US_1553
+      - 🇺🇸 2
+      - 🇺🇸 3
+      - 🇸🇬
+      - CA_125
+      - 14.29.124.168:24001
+      - Relay_🇸🇬SG-🇸🇬SG_1175
+      - aiatw5.www.klrxyru.cn:1205
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -684,82 +166,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 馃嚭馃嚫US_986
-      - 馃嚦馃嚤NL_791
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_149
-      - 馃嚦馃嚤NL_811
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1739
-      - 馃嚬馃嚰TW_961
-      - 馃嚭馃嚫US_1615
-      - 馃嚭馃嚫US_1537
-      - 馃弫ZZ_1841
-      - Pool_馃嚭馃嚫US_1741
-      - 馃嚭馃嚫US_1768
-      - 馃弫ZZ_1868
-      - 馃嚭馃嚫US_978
-      - 馃弫ZZ_1858
-      - 馃嚭馃嚫US_1448
-      - 馃弫ZZ_1884
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1762
-      - 馃弫ZZ_1821
-      - 馃嚭馃嚫US_1316
-      - 馃弫ZZ_1876
-      - 馃嚭馃嚫US_1577
-      - 馃嚭馃嚫US_1755
-      - 馃弫ZZ_1865
-      - 馃嚪馃嚭RU_889
-      - 馃嚭馃嚫US_1444
-      - 馃嚭馃嚫US_1719
-      - 馃嚦馃嚤NL_774
-      - 馃嚦馃嚤NL_800
-      - 馃嚦馃嚤NL_810
-      - 馃嚦馃嚤NL_788
-      - 馃嚦馃嚤NL_809
-      - 馃嚦馃嚤NL_796
-      - 馃嚦馃嚤NL_781
-      - 馃嚦馃嚤NL_772
-      - 馃嚦馃嚤NL_804
-      - 馃嚦馃嚤NL_803
-      - 馃嚦馃嚤NL_805
-      - 馃嚦馃嚤NL_797
-      - 馃嚦馃嚤NL_794
-      - 馃嚦馃嚤NL_806
-      - 馃嚦馃嚤NL_808
-      - 馃嚦馃嚤NL_783
-      - 馃嚦馃嚤NL_775
-      - 馃嚦馃嚤NL_793
-      - 馃嚦馃嚤NL_799
-      - 馃嚦馃嚤NL_771
-      - 馃嚦馃嚤NL_807
-      - 馃嚦馃嚤NL_777
-      - 馃嚦馃嚤NL_779
-      - 馃嚦馃嚤NL_785
-      - 馃嚦馃嚤NL_787
-      - 馃嚦馃嚤NL_792
-      - 馃嚦馃嚤NL_801
-      - 馃嚦馃嚤NL_778
-      - TW_874
-      - 馃嚦馃嚤NL_782
-      - 馃嚦馃嚤NL_802
-      - 馃嚦馃嚤NL_790
-      - 馃嚦馃嚤NL_798
-      - 馃嚦馃嚤NL_773
-      - 馃嚭馃嚫US_1019
-      - 馃嚦馃嚤NL_784
-      - 馃嚦馃嚤NL_789
-      - 馃嚦馃嚤NL_795
-      - 馃嚦馃嚤NL_780
-      - 馃嚭馃嚫US_988
-      - US_1444
-      - 馃嚭馃嚫US_1166
+      - US_1108
       - 🇺🇸
-      - 馃嚭馃嚫US_1139
-      - 馃嚦馃嚤NL_786
-      - US_1426
-      - TW_869
-      - US_1486
-      - CA_348
-      - 馃嚭馃嚫US_1246
+      - US_1834
+      - US_1553
+      - 🇺🇸 2
+      - 🇺🇸 3
+      - 🇸🇬
+      - CA_125
+      - 14.29.124.168:24001
+      - Relay_🇸🇬SG-🇸🇬SG_1175
+      - aiatw5.www.klrxyru.cn:1205
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
