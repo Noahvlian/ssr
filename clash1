@@ -1,4 +1,3 @@
-
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -6,99 +5,119 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 印度DO 联通, server: cu.newhua99.top, port: 21682, type: ss, cipher: aes-128-gcm, password: cf81660b-225f-4b2b-a7dc-9ee3a666e6f5, udp: true}
-  - {name: 马来西亚 01 | 解锁流媒体, server: cm.newhua99.top, port: 21691, type: ss, cipher: aes-128-gcm, password: cf81660b-225f-4b2b-a7dc-9ee3a666e6f5, udp: true}
-  - {name: 香港WTT 03, server: cm.newhua99.top, port: 21693, type: ss, cipher: aes-128-gcm, password: cf81660b-225f-4b2b-a7dc-9ee3a666e6f5, udp: true}
-  - {name: 香港 icable 移动01, server: cm.newhua99.top, port: 21681, type: ss, cipher: aes-128-gcm, password: cf81660b-225f-4b2b-a7dc-9ee3a666e6f5, udp: true}
-  - {name: v3｜台湾01 主力, server: cm.newhua99.top, port: 21618, type: ss, cipher: aes-128-gcm, password: cf81660b-225f-4b2b-a7dc-9ee3a666e6f5, udp: true}
-  - {name: v3｜台湾02 主力, server: cm.newhua99.top, port: 21619, type: ss, cipher: aes-128-gcm, password: cf81660b-225f-4b2b-a7dc-9ee3a666e6f5, udp: true}
-  - {name: WTT 02, server: jzhkt.ddns.me, port: 3330, type: ss, cipher: aes-128-gcm, password: cf81660b-225f-4b2b-a7dc-9ee3a666e6f5, udp: true}
-  - {name: 香港❤HK➤01, server: cunicom.sev7en.cc, port: 20520, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
-  - {name: 菲律宾❤️PH, server: cunicom.sev7en.cloud, port: 20515, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
-  - {name: 日本❤JP ➤04, server: cmvmzeocloud.julvab.com, port: 25124, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
-  - {name: 香港❤HK➤05, server: cunicom.julvab.com, port: 30009, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
-  - {name: 新加坡❤SG➤3, server: shared.sev7en.cc, port: 50716, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
-  - {name: 日本❤JP ➤03, server: cunicom.sev7en.cc, port: 21111, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
-  - {name: 日本❤JP ➤02, server: cunicom.sev7en.cc, port: 21110, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
-  - {name: 香港❤HK➤01 2, server: cunicom.sev7en.cc, port: 20520, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
-  - {name: 菲律宾❤️PH 2, server: cunicom.sev7en.cloud, port: 20515, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
-  - {name: 香港❤HK➤05 2, server: cunicom.julvab.com, port: 30009, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
-  - {name: 日本❤JP ➤03 2, server: cunicom.sev7en.cc, port: 21111, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
-  - {name: 日本❤JP ➤02 2, server: cunicom.sev7en.cc, port: 21110, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
+  - {name: _油管：全网最强白嫖, server: 13.230.132.119, port: 44573, type: vmess, uuid: a8f22787-675c-462e-8dda-703bd77154b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 2, server: 185.160.26.35, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: 20.205.12.89, port: 52218, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 4, server: 185.160.26.35, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 5, server: 185.160.26.35, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_373, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 6, server: 185.160.26.35, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 7, server: 185.160.26.35, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 8, server: 139.217.229.103, port: 52280, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 9, server: 20.205.5.134, port: 52278, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 10, server: aaa-666.txwd.xyz, port: 30004, type: ss, cipher: aes-128-gcm, password: 1vnHefgFxrJmgnK9, udp: true}
+  - {name: _油管：全网最强白嫖 11, server: 20.239.195.218, port: 52279, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 12, server: 20.24.208.177, port: 52234, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 13, server: 20.24.77.110, port: 52286, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 14, server: 139.217.229.103, port: 52281, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CA_59, server: 138.197.166.205, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: _油管：全网最强白嫖 15, server: 52.140.217.118, port: 52219, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 16, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 17, server: 20.187.68.198, port: 52205, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 18, server: 52.175.57.151, port: 52222, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR_245, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_371, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 19, server: aaa-666.txwd.xyz, port: 30007, type: ss, cipher: aes-128-gcm, password: Nbuk8KTZgivHffBt, udp: true}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_1168, server: sg-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印度DO 联通
-      - 马来西亚 01 | 解锁流媒体
-      - 香港WTT 03
-      - 香港 icable 移动01
-      - v3｜台湾01 主力
-      - v3｜台湾02 主力
-      - WTT 02
-      - 香港❤HK➤01
-      - 菲律宾❤️PH
-      - 日本❤JP ➤04
-      - 香港❤HK➤05
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤03
-      - 日本❤JP ➤02
-      - 香港❤HK➤01 2
-      - 菲律宾❤️PH 2
-      - 香港❤HK➤05 2
-      - 日本❤JP ➤03 2
-      - 日本❤JP ➤02 2
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - Relay_🇯🇵JP-🇯🇵JP_373
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - CA_59
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - FR_245
+      - Relay_🇯🇵JP-🇯🇵JP_371
+      - _油管：全网最强白嫖 19
+      - Relay_🇸🇬SG-🇸🇬SG_1168
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 印度DO 联通
-      - 马来西亚 01 | 解锁流媒体
-      - 香港WTT 03
-      - 香港 icable 移动01
-      - v3｜台湾01 主力
-      - v3｜台湾02 主力
-      - WTT 02
-      - 香港❤HK➤01
-      - 菲律宾❤️PH
-      - 日本❤JP ➤04
-      - 香港❤HK➤05
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤03
-      - 日本❤JP ➤02
-      - 香港❤HK➤01 2
-      - 菲律宾❤️PH 2
-      - 香港❤HK➤05 2
-      - 日本❤JP ➤03 2
-      - 日本❤JP ➤02 2
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - Relay_🇯🇵JP-🇯🇵JP_373
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - CA_59
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - FR_245
+      - Relay_🇯🇵JP-🇯🇵JP_371
+      - _油管：全网最强白嫖 19
+      - Relay_🇸🇬SG-🇸🇬SG_1168
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印度DO 联通
-      - 马来西亚 01 | 解锁流媒体
-      - 香港WTT 03
-      - 香港 icable 移动01
-      - v3｜台湾01 主力
-      - v3｜台湾02 主力
-      - WTT 02
-      - 香港❤HK➤01
-      - 菲律宾❤️PH
-      - 日本❤JP ➤04
-      - 香港❤HK➤05
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤03
-      - 日本❤JP ➤02
-      - 香港❤HK➤01 2
-      - 菲律宾❤️PH 2
-      - 香港❤HK➤05 2
-      - 日本❤JP ➤03 2
-      - 日本❤JP ➤02 2
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - Relay_🇯🇵JP-🇯🇵JP_373
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - CA_59
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - FR_245
+      - Relay_🇯🇵JP-🇯🇵JP_371
+      - _油管：全网最强白嫖 19
+      - Relay_🇸🇬SG-🇸🇬SG_1168
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -117,111 +136,123 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印度DO 联通
-      - 马来西亚 01 | 解锁流媒体
-      - 香港WTT 03
-      - 香港 icable 移动01
-      - v3｜台湾01 主力
-      - v3｜台湾02 主力
-      - WTT 02
-      - 香港❤HK➤01
-      - 菲律宾❤️PH
-      - 日本❤JP ➤04
-      - 香港❤HK➤05
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤03
-      - 日本❤JP ➤02
-      - 香港❤HK➤01 2
-      - 菲律宾❤️PH 2
-      - 香港❤HK➤05 2
-      - 日本❤JP ➤03 2
-      - 日本❤JP ➤02 2
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - Relay_🇯🇵JP-🇯🇵JP_373
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - CA_59
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - FR_245
+      - Relay_🇯🇵JP-🇯🇵JP_371
+      - _油管：全网最强白嫖 19
+      - Relay_🇸🇬SG-🇸🇬SG_1168
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港WTT 03
-      - 香港 icable 移动01
-      - v3｜台湾01 主力
-      - v3｜台湾02 主力
-      - 香港❤HK➤01
-      - 香港❤HK➤05
-      - 香港❤HK➤01 2
-      - 香港❤HK➤05 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 印度DO 联通
-      - 马来西亚 01 | 解锁流媒体
-      - 香港WTT 03
-      - 香港 icable 移动01
-      - v3｜台湾01 主力
-      - v3｜台湾02 主力
-      - WTT 02
-      - 香港❤HK➤01
-      - 菲律宾❤️PH
-      - 日本❤JP ➤04
-      - 香港❤HK➤05
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤03
-      - 日本❤JP ➤02
-      - 香港❤HK➤01 2
-      - 菲律宾❤️PH 2
-      - 香港❤HK➤05 2
-      - 日本❤JP ➤03 2
-      - 日本❤JP ➤02 2
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - Relay_🇯🇵JP-🇯🇵JP_373
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - CA_59
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - FR_245
+      - Relay_🇯🇵JP-🇯🇵JP_371
+      - _油管：全网最强白嫖 19
+      - Relay_🇸🇬SG-🇸🇬SG_1168
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 印度DO 联通
-      - 马来西亚 01 | 解锁流媒体
-      - 香港WTT 03
-      - 香港 icable 移动01
-      - v3｜台湾01 主力
-      - v3｜台湾02 主力
-      - WTT 02
-      - 香港❤HK➤01
-      - 菲律宾❤️PH
-      - 日本❤JP ➤04
-      - 香港❤HK➤05
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤03
-      - 日本❤JP ➤02
-      - 香港❤HK➤01 2
-      - 菲律宾❤️PH 2
-      - 香港❤HK➤05 2
-      - 日本❤JP ➤03 2
-      - 日本❤JP ➤02 2
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - Relay_🇯🇵JP-🇯🇵JP_373
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - CA_59
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - FR_245
+      - Relay_🇯🇵JP-🇯🇵JP_371
+      - _油管：全网最强白嫖 19
+      - Relay_🇸🇬SG-🇸🇬SG_1168
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 印度DO 联通
-      - 马来西亚 01 | 解锁流媒体
-      - 香港WTT 03
-      - 香港 icable 移动01
-      - v3｜台湾01 主力
-      - v3｜台湾02 主力
-      - WTT 02
-      - 香港❤HK➤01
-      - 菲律宾❤️PH
-      - 日本❤JP ➤04
-      - 香港❤HK➤05
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤03
-      - 日本❤JP ➤02
-      - 香港❤HK➤01 2
-      - 菲律宾❤️PH 2
-      - 香港❤HK➤05 2
-      - 日本❤JP ➤03 2
-      - 日本❤JP ➤02 2
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - Relay_🇯🇵JP-🇯🇵JP_373
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - CA_59
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - FR_245
+      - Relay_🇯🇵JP-🇯🇵JP_371
+      - _油管：全网最强白嫖 19
+      - Relay_🇸🇬SG-🇸🇬SG_1168
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -237,25 +268,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 印度DO 联通
-      - 马来西亚 01 | 解锁流媒体
-      - 香港WTT 03
-      - 香港 icable 移动01
-      - v3｜台湾01 主力
-      - v3｜台湾02 主力
-      - WTT 02
-      - 香港❤HK➤01
-      - 菲律宾❤️PH
-      - 日本❤JP ➤04
-      - 香港❤HK➤05
-      - 新加坡❤SG➤3
-      - 日本❤JP ➤03
-      - 日本❤JP ➤02
-      - 香港❤HK➤01 2
-      - 菲律宾❤️PH 2
-      - 香港❤HK➤05 2
-      - 日本❤JP ➤03 2
-      - 日本❤JP ➤02 2
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
+      - Relay_🇯🇵JP-🇯🇵JP_373
+      - _油管：全网最强白嫖 6
+      - _油管：全网最强白嫖 7
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - _油管：全网最强白嫖 11
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - CA_59
+      - _油管：全网最强白嫖 15
+      - _油管：全网最强白嫖 16
+      - _油管：全网最强白嫖 17
+      - _油管：全网最强白嫖 18
+      - FR_245
+      - Relay_🇯🇵JP-🇯🇵JP_371
+      - _油管：全网最强白嫖 19
+      - Relay_🇸🇬SG-🇸🇬SG_1168
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
